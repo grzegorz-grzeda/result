@@ -44,6 +44,7 @@
  */
 typedef enum result {
     RESULT_OK,                       /**< OK - The operation was successfull */
+    RESULT_ERROR_NOT_IMPLEMENTED,    /**< The feature is not implemented */
     RESULT_ERROR_ARGUMENT_INVALID,   /**< The provided function argument was invalid */
     RESULT_ERROR_MEMORY_NOT_ENOUGH,  /**< Not enough memory to perform the operation */
     RESULT_ERROR_HARDWARE_NO_DEVICE, /**< The hardware failed to appear */
